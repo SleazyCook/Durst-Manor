@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
+
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -72,3 +74,10 @@ footer {
     /* margin-top: 5em; */
 }
 
+#author {
+    font-family: 'Berkshire Swash';
+}
+
+a {
+    text-decoration: none;
+}
