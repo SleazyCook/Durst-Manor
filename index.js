@@ -728,7 +728,7 @@ const textNodes =
     },
     {
     id: 41, 
-    text: 'A voice is heard chaingint over and over \"He is the Ancient. He is the Land.\"',
+    text: 'A voice is heard somewhere chanting over and over \"He is the Ancient. He is the Land.\"',
     options:
         [
             {
