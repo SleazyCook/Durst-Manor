@@ -1069,7 +1069,7 @@ const textNodes =
     },
     {
     id: 65,
-    text: 'The evil broom animates, catching you off guard its tears off your face with its bristles!',
+    text: 'The evil broom animates, catching you off guard, its tears off your face with its bristles!',
     options:
         [
             {
