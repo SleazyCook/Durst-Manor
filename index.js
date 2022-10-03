@@ -245,7 +245,7 @@ const textNodes =
     },
     {
     id: 11,
-    text: 'An exquisite mahogany desk and a mathing high back chair face the entrance, above which hangs a framed picture of a windmill. Floor-to-ceiling bookshelves line the south wall. ',
+    text: 'An exquisite mahogany desk and a matching high back chair face the entrance, above which hangs a framed picture of a windmill. Floor-to-ceiling bookshelves line the south wall. ',
     options: 
         [
             {
@@ -280,7 +280,7 @@ const textNodes =
     },
     {
     id: 13,
-    text: 'Inside the desk drawer, you might a key',
+    text: 'Inside the desk drawer, you find a key',
     options: 
         [
             {
@@ -439,7 +439,7 @@ const textNodes =
             },
             {
                 text: 'Attack with swortsword (Dexterity)',
-                requiredState: (currentState) => currentState.swordshort,
+                requiredState: (currentState) => currentState.shortsword,
                 nextText: 23
             },
             {
