@@ -791,12 +791,12 @@ const textNodes =
             {
                 text: 'Attack with longsword (Strength)',
                 requiredState: (currentState) => currentState.longsword,
-                nextText: 46
+                nextText: 47
             },
             {
                 text: 'Attack with shortsword (Dexterity)',
                 requiredState: (currentState) => currentState.shortsword,
-                nextText: 46
+                nextText: 47
             },
             {
                 text: 'Attack with Mighty Pen (Charisma)',
@@ -815,7 +815,7 @@ const textNodes =
     },
     {
     id: 46,
-    text: 'You slay the ghoul cultist with your sword',
+    text: 'Inactive ID',
     options:
         [
             {
