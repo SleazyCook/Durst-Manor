@@ -495,6 +495,10 @@ const textNodes =
                 nextText: 21
             },
             {
+                text: 'Check closet',
+                nextText: 64
+            },
+            {
                 text: 'Investigate Wall',
                 requiredState: (currentState) => currentState.secret,
                 nextText: 34
@@ -1047,6 +1051,32 @@ const textNodes =
     {
     id: 63,
     text: '\"Welcome to Barovia! \n -Strahd von Zarovich\"'
+    },
+    {
+    id: 64,
+    text: 'An ordinary closet with a broom leaning against a wall',
+    options:
+        [
+            {
+                text: 'Close closet door',
+                nextText: 25
+            },
+            {
+                text: 'Take broom',
+                nextText: 65
+            }
+        ]
+    },
+    {
+    id: 65,
+    text: 'The evil broom animates, catching you off guard its tears off your face with its bristles!',
+    options:
+        [
+            {
+                text: 'Restart',
+                nextText: -1
+            }
+        ]
     }
 ]   
 
