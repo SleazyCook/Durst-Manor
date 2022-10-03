@@ -38,7 +38,7 @@ main {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: darkgrey;
+    background-color: rgb(70, 68, 68);
     padding: 10px;
     border-radius: 2px;
     box-shadow: 0 0 10px 2px;
@@ -53,6 +53,7 @@ main {
 }
 
 .btn {
+    color: black;
     background-color: hsl(12, 85%, 25%);
     border: 1px solid hsl(12, 85%, 10%);
     border-radius: 2px;
