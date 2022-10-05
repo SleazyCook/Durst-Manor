@@ -809,6 +809,7 @@ const textNodes =
             },
             {
                 text: 'Put on disguise (Robe)',
+                requiredState: (currentState) => currentState.robe,
                 nextText: 48
             }
         ]
