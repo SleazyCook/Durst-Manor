@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -37,14 +40,21 @@ main {
     font-family: Pacifico;
 }
 
+/* Main Container */
 .container {
     width: 800px;
     max-width: 80%;
     background-color: rgb(70, 68, 68);
-    padding: 10px;
+    padding: 20px;
     border-radius: 2px;
     box-shadow: 0 0 10px 2px;
     text-align: center;
+}
+
+/* Prompts */
+#text {
+    font-family: "Sedan SC", serif;
+    color: #ffdba7;
 }
 
 .btn-grid {
@@ -55,17 +65,19 @@ main {
 }
 
 .btn {
-    color: black;
+    color: #ffdba7;
     background-color: hsl(12, 85%, 25%);
-    border: 1px solid hsl(12, 85%, 10%);
+    border: 2px solid hsl(12, 85%, 10%);
     border-radius: 2px;
     padding: 5px 10px;
     outline: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: "Sedan SC", serif;
+    font-size: 1.15rem;
 }
 
 .btn:hover {
     border-color: black;
+    cursor: pointer;
 }
 
 footer {
