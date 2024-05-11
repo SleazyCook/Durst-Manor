@@ -55,6 +55,7 @@ main {
 #text {
     font-family: "Sedan SC", serif;
     color: #ffdba7;
+    font-size: 1.25rem;
 }
 
 .btn-grid {
