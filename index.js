@@ -12,6 +12,9 @@ function startGame() {
     showTextNode(1)
 }
 
+// create a function to show stats and inventory
+
+
 // create a function for the prompt 
 function showTextNode(textNodeIndex) 
 {
@@ -41,6 +44,9 @@ function showTextNode(textNodeIndex)
                     button.addEventListener('click', () => selectOption(option))
                     // add the button
                     optionButtonsElement.appendChild(button)
+
+                    // write a callback function to check for and render stats and inventory and call it here
+                    console.log('test state', state)
                 }
         })
 }

@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Permanent+Marker&display=swap');
-
-
 @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
 
 
@@ -28,10 +26,9 @@ h2 {
     margin-top: -1em;
 }
 
+/* Invisible Play Area */
 main {
     padding: 0;
-    /* margin-top: 5em; */
-    /* margin: 0; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +41,7 @@ main {
 .container {
     width: 800px;
     max-width: 80%;
-    background-color: rgb(70, 68, 68);
+    background-color: #363434;
     padding: 20px;
     border-radius: 2px;
     box-shadow: 0 0 10px 2px;
@@ -74,23 +71,22 @@ main {
     outline: none;
     font-family: "Sedan SC", serif;
     font-size: 1.15rem;
+    transition: all .3s;
 }
 
 .btn:hover {
     border-color: black;
     cursor: pointer;
+    filter: drop-shadow(4px 4px 4px black);
+
 }
 
+/* Footer  */
 footer {
     text-align: center;
     color: rgb(119, 31, 9);
-    /* margin-top: 5em; */
 }
 
 #author {
     font-family: 'Berkshire Swash';
-}
-
-a {
-    text-decoration: none;
 }
