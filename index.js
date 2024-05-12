@@ -185,7 +185,7 @@ const textNodes =
     {
         id: 1,
         text: 'Choose your character ability',
-        img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+        img: 'https://images.squarespace-cdn.com/content/v1/5f84db83e2665954761873a1/1629417769623-5L1R2B413WRVBXBKTX08/dnd-races.jpg',
         imgAlt: 'adventure beginning',
         options:
         [
@@ -214,7 +214,7 @@ const textNodes =
     {
     id: 2,
     text: 'You wake up in the back of a wagon. You have agreed to be part of a traveling show led by the eccentric Viktor Lazlo. You see three mysyerious strangers in the wagon who have also join Lazlo\'s circus.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.ytimg.com/vi/xE0cgp4DbwU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggZShkMA8=&rs=AOn4CLCdgNz2Wipau8mOKIJZYv1eG5H23g',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -237,7 +237,7 @@ const textNodes =
     {
     id: 3,
     text: 'As the group is introducing themselves, the wagon comes to a sudden halt.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/05/dnd-party-planning.jpg',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -254,7 +254,7 @@ const textNodes =
     {
     id: 4,
     text: 'In front of the wagon stand two young children. They cry and beg you to save their baby brother who is trapped in their home.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/863Q0kW.png',
     imgAlt: 'adventure continues',
     options: 
         [
