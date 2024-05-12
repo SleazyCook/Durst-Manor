@@ -186,7 +186,7 @@ const textNodes =
         id: 1,
         text: 'Choose your character ability',
         img: 'https://i.imgur.com/i0O98HX.png',
-        imgAlt: 'adventure beginning',
+        imgAlt: 'the adventure begins',
         options:
         [
             {
@@ -215,7 +215,7 @@ const textNodes =
     id: 2,
     text: 'You wake up in the back of a wagon. You have agreed to be part of a traveling show led by the eccentric Viktor Lazlo. You see three mysyerious strangers in the wagon who have also join Lazlo\'s circus.',
     img: 'https://i.imgur.com/W6j6xrd.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'wagon on a dark road',
     options: 
         [
             {
@@ -238,7 +238,7 @@ const textNodes =
     id: 3,
     text: 'As the group is introducing themselves, the wagon comes to a sudden halt.',
     img: 'https://i.imgur.com/A0H2Q1D.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'adventuring party',
     options: 
         [
             {
@@ -255,7 +255,7 @@ const textNodes =
     id: 4,
     text: 'In front of the wagon stand two young children. They cry and beg you to save their baby brother who is trapped in their home.',
     img: 'https://i.imgur.com/863Q0kW.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'strange children',
     options: 
         [
             {
@@ -272,7 +272,7 @@ const textNodes =
     id: 5,
     text: 'Wolves surround you baring their teeth. You are alone in this fight.',
     img: 'https://i.imgur.com/gZjlTRa.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'surrounde by wolves',
     options: 
         [
             {
@@ -285,7 +285,7 @@ const textNodes =
     id: 6,
     text: 'The children, Rose and Thorn Durst, take you and Viktor\'s band of strangers to a decrepit house. Although they are too scared to go in with you, they implore you to rescue baby Walter.',
     img: 'https://i.imgur.com/T0Zxa3L.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'durst manor exterior',
     options:  
         [
             {
@@ -302,7 +302,7 @@ const textNodes =
     id: 7,
     text: 'Despite it\'s outward appearance, the inside of the house seems to be immaculate. The rooms are clean and brightly lit by a warm fire.',
     img: 'https://i.imgur.com/nOIlbjM.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'immaculate interior',
     options: 
         [
             {
@@ -315,7 +315,7 @@ const textNodes =
     id: 8,
     text: 'The main hall connects to many rooms within the house. You decide where to go next.',
     img: 'https://i.imgur.com/zuJkzhb.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'main hall',
     options: 
         [
             {
@@ -340,7 +340,7 @@ const textNodes =
     id: 9,
     text: 'While the chairs are empty, the dining table itself is covered delicately displaying a massive feast',
     img: 'https://i.imgur.com/fasw0db.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'lavish dining room',
     options: 
         [
             {
@@ -361,7 +361,7 @@ const textNodes =
     id: 10,
     text: 'You have been poisoned to death.',
     img: 'https://i.imgur.com/MgArGqy.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'poisoned to death',
     options: 
         [
             {
@@ -374,7 +374,7 @@ const textNodes =
     id: 11,
     text: 'An exquisite mahogany desk and a matching high back chair face the entrance, above which hangs a framed picture of a windmill. Floor-to-ceiling bookshelves line the south wall. ',
     img: 'https://i.imgur.com/1uXSTvv.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'library',
     options: 
         [
             {
@@ -395,7 +395,7 @@ const textNodes =
     id: 12,
     text: 'The desk drawer is locked.',
     img: 'https://i.imgur.com/hKET8Qm.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'locked out',
     options: 
         [
             {
@@ -413,7 +413,7 @@ const textNodes =
     id: 13,
     text: 'Inside the desk drawer, you find a key',
     img: 'https://i.imgur.com/5LouXWK.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'hidden key',
     options: 
         [
             {
@@ -427,7 +427,7 @@ const textNodes =
     id: 14,
     text: 'One of the books looks like a lever',
     img: 'https://i.imgur.com/xYcA4Dj.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'bookcase',
     options: 
         [
             {
@@ -444,7 +444,7 @@ const textNodes =
     id: 15,
     text: 'An old dart trap appears to have killed a man in this secret room a long time ago. Cluthed in his hand is a letter.',
     img: 'https://i.imgur.com/5lLJOVB.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'dead adventurer',
     options: 
         [
             {
@@ -457,7 +457,7 @@ const textNodes =
     id: 16,
     text: '\" My most loyal servant, \n \I am not a messiah sent to you by the Dark Powers of this land. I have not come to lead you on a path to immortality. However many souls you have bled on your hidden alter; however many visitors you have tortured in your dungeon, know that you are not the ones that have brought me to this beautiful land. You are but worms writhing in my earth. \n You say that you are cursed, your fortunes spent. You abandoned love for madness, took solace in the bosom of another woman, and sired a basard son. Cursed by darkness? I think not. I much prefer you as you are. \n Your dread lord and master, \n Strahd von Zarovich\"',
     img: 'https://i.imgur.com/K7FmSRX.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'note from the master',
     options: 
         [
             {
@@ -469,8 +469,8 @@ const textNodes =
     {
     id: 17,
     text: 'An elegantly appointed hall with brass chandelier hanging from the ceiling. There is a piano in the center of the room and a chest against the wall',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/uov3njh.png',
+    imgAlt: 'conservatory',
     options: 
         [
             {
@@ -490,8 +490,8 @@ const textNodes =
     {
     id: 18,
     text: 'Hiding behind the piano is a whimpering little dog. His tag bears the name \"Lancelot\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/h85QU83.png',
+    imgAlt: 'Lancelot, the dog',
     options: 
         [
             {
@@ -504,8 +504,8 @@ const textNodes =
     {
     id: 19,
     text: 'Inside the chest you find a small collection of weapons',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/6wiekSf.png',
+    imgAlt: 'weapons cabinet',
     options:
         [
             {
