@@ -684,7 +684,8 @@ const textNodes =
             },
             {
                 text: 'Take bones',
-                nextText: 33
+                nextText: 33,
+                setState: { bones: true}
             },
             {
                 text: 'Leave room',
@@ -711,8 +712,7 @@ const textNodes =
         [
             {
                 text: 'Continue',
-                nextText: 31,
-                setState: { bones: true}
+                nextText: 31
             }
         ]
     },
@@ -1132,8 +1132,7 @@ const textNodes =
         [
             {
                 text: 'Return to the wagon',
-                nextText: 62,
-                setState: { basket: true }
+                nextText: 62
             }
         ]   
     },
@@ -1144,7 +1143,8 @@ const textNodes =
         [
             {
                 text: 'Read card',
-                nextText: 63
+                nextText: 63,
+                setState: { basket: true }
             }
         ]
     },
