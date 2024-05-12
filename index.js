@@ -58,32 +58,33 @@ function updateInvDisplay(obj) {
         
         inventory.forEach(item => {
             let imgSrc = ''
-            if (item = 'Ally') {
+            if (item == 'Ally') {
                 imgSrc='https://i.imgur.com/tNFzLGi.png'
-            } else if (item = 'Key') {
+            } else if (item == 'Key') {
                 imgSrc='https://i.imgur.com/5LouXWK.png'
-            } else if (item = 'Dog') {
+            } else if (item == 'Dog') {
                 imgSrc='https://i.imgur.com/h85QU83.png'
-            } else if (item = 'Longsword') {
+            } else if (item == 'Longsword') {
                 imgSrc='https://i.imgur.com/PmWP2BL.png'
-            } else if (item = 'Shortsword') {
+            } else if (item == 'Shortsword') {
                 imgSrc='https://i.imgur.com/EnUwMfX.png'
-            } else if (item = 'Pen') {
+            } else if (item == 'Pen') {
                 imgSrc='https://i.imgur.com/Y8sJKPy.png'
-            } else if (item = 'Paddle') {
+            } else if (item == 'Paddle') {
                 imgSrc='https://i.imgur.com/nPYhd7w.png'
-            } else if (item = 'Secret') {
+            } else if (item == 'Secret') {
                 imgSrc='https://i.imgur.com/nEwS8SV.png'
-            } else if (item = 'Bones') {
+            } else if (item == 'Bones') {
                 imgSrc='https://i.imgur.com/8pxd70A.png'
-            } else if (item = 'Robe') {
+            } else if (item == 'Robe') {
                 imgSrc='https://i.imgur.com/a7q6qI3.png'
-            } else if (item = 'Remains') {
+            } else if (item == 'Remains') {
                 imgSrc='https://i.imgur.com/thHEnVX.png'
             }
 
             const invItem = document.createElement('img')
             invItem.setAttribute('src', imgSrc)
+            invItem.setAttribute('title', item)
             // invItem.textContent = item
             invBox.appendChild(invItem)
         })
