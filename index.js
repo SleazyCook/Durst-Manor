@@ -40,7 +40,7 @@ function updateInvDisplay(obj) {
     let inventory = []
 
     for (key in obj) {
-        if (!obj[0]) {
+        if (!obj[0] & key == true) {
             // capitalize str and add to inventory array
             let formattedKey = key[0].toUpperCase() + key.slice(1)
             inventory.push(formattedKey)
@@ -80,6 +80,8 @@ function updateInvDisplay(obj) {
                 imgSrc='https://i.imgur.com/a7q6qI3.png'
             } else if (item == 'Remains') {
                 imgSrc='https://i.imgur.com/thHEnVX.png'
+            } else if (item == 'Basket') {
+                imgSrc='https://i.imgur.com/Ks8aSCr.png'
             }
 
             const invItem = document.createElement('img')
@@ -215,14 +217,10 @@ const textNodes =
         [
             {
                 text: 'Go back to sleep',
-                // requiredState: (currentState) => currentState.blueGoo,
-                // setState: { blueGoo: false, sword: true },
                 nextText: 5
             },
             {
                 text: 'Go outside and investigate',
-                // requiredState: (currentState) => currentState.blueGoo,
-                // setState: { blueGoo: false, shield: true },
                 nextText: 4
             },
         ]
@@ -1133,7 +1131,8 @@ const textNodes =
         [
             {
                 text: 'Return to the wagon',
-                nextText: 62
+                nextText: 62,
+                setState: { basket: true }
             }
         ]   
     },
