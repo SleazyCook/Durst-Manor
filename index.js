@@ -40,7 +40,8 @@ function updateInvDisplay(obj) {
     let inventory = []
 
     for (key in obj) {
-        if (!obj[0] & key == true) {
+        // only consider keys with a value of TRUE
+        if (!obj[0] & obj[key] === true) {
             // capitalize str and add to inventory array
             let formattedKey = key[0].toUpperCase() + key.slice(1)
             inventory.push(formattedKey)
