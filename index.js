@@ -498,6 +498,10 @@ const textNodes =
                 text: 'Gently invite the puppy into your party',
                 setState: { dog: true},
                 nextText: 17
+            },
+            {
+                text: 'Ignore the dog',
+                nextText: 17
             }
         ]
     },
@@ -537,8 +541,8 @@ const textNodes =
     {
     id: 20,
     text: 'A gorgeous staircase spirals up to a second floor balcony',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/U6L2B5L.png',
+    imgAlt: 'durst manor stairway',
     options: 
         [
             {
@@ -550,8 +554,8 @@ const textNodes =
     {
     id: 21,
     text: 'The balcony hosts a suit of armor and some more doors. You decide where to go next.',
-    img: 'https://i.redd.it/6xhthrvyrko71.png',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/9r2cNIS.png',
+    imgAlt: 'upstairs landing',
     options:
         [
             {
@@ -575,8 +579,8 @@ const textNodes =
     {
     id: 22,
     text: 'The suit of armor suddenly animates and attacks',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/hQMa3uC.png',
+    imgAlt: 'animated armor attacks',
     options:
         [
             {
@@ -613,8 +617,8 @@ const textNodes =
     {
     id: 23,
     text: 'You successfully defend yourself from the armor.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/9r2cNIS.png',
+    imgAlt: 'survived the attack',
     options: 
         [
             {
@@ -626,8 +630,8 @@ const textNodes =
     {
     id: 24,
     text: 'The armor tears off your arm and beats you to death with it',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/u27AsrU.png',
+    imgAlt: 'death',
     options:
         [
             {
@@ -639,8 +643,8 @@ const textNodes =
     {
     id: 25,
     text: 'A bedroom with a large painted portrait of a family on it. The name reads \"Durst\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/Q33dpxo.png',
+    imgAlt: 'durst master bedroom',
     options:
         [
             {
@@ -666,7 +670,7 @@ const textNodes =
     id: 26,
     text: 'A bloody note reads \n \"I have disgraced our family. I have had an affair with our nursemaid. As much as I love baby Walter, my wife cannot stand the sight of him. She believes that he is our only hope for salvation. I should have never let her take him to the basement. I just cannot bare it anymore.\"',
     img: 'https://i.imgur.com/K7FmSRX.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'confession',
     options: 
         [
             {
@@ -678,8 +682,8 @@ const textNodes =
     {
     id: 27,
     text: 'This room is locked',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/hKET8Qm.png',
+    imgAlt: 'locked door',
     options:
         [
             {
@@ -716,8 +720,8 @@ const textNodes =
     {
     id:28, 
     text: 'The lockpick breaks',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/K6KSUCS.png',
+    imgAlt: 'broken lockpick',
     options: 
         [
             {
@@ -729,8 +733,8 @@ const textNodes =
     {
     id: 29,
     text: 'You smash through the door',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/ifU7E3z.png',
+    imgAlt: 'bursting through the door',
     options:
         [
             {
@@ -742,8 +746,8 @@ const textNodes =
     {
     id: 30,
     text: 'The door unlocks',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/sMFN0zd.png',
+    imgAlt: 'door unlocks',
     options: 
         [
             {
@@ -755,8 +759,8 @@ const textNodes =
     {
     id: 31,
     text: 'A dark room with a bricked-up window flanked by two dusty, wood framed beds. There are two small skeletons embracing each other on the floor by a dollhouse',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/iDomRFB.png',
+    imgAlt: "children's bedroom",
     options: 
         [
             {
@@ -777,8 +781,8 @@ const textNodes =
     {
     id: 32,
     text: 'The dollhouse is an exact replica of Durst Manor. There is a secret door in the Master Suite',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/nEwS8SV.png',
+    imgAlt: 'dollhouse',
     options:
         [
             {
@@ -791,8 +795,8 @@ const textNodes =
     {
     id: 33,
     text: 'The bones remind you of the children Rose and Thorn.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/8pxd70A.png',
+    imgAlt: "children's bones",
     options:
         [
             {
@@ -804,7 +808,7 @@ const textNodes =
     {
     id: 34,
     text: 'The wall slides open to reveal a staircase descending into the dark.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/xuqSzIj.png',
     imgAlt: 'adventure continues',
     options:
         [
@@ -817,8 +821,8 @@ const textNodes =
     {
     id: 35,
     text: 'The stairs descend deeper and deeper...',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/wxo8u7C.png',
+    imgAlt: 'hidden staircase',
     options: 
         [
             {
@@ -830,8 +834,8 @@ const textNodes =
     {
     id: 36,
     text: 'You finally reach the basement floor. Looking back, you can barely see the light from the top of the stairs.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/RLvfiqO.png',
+    imgAlt: 'descending the staircase',
     options: 
         [
             {
@@ -843,8 +847,8 @@ const textNodes =
     {
     id: 37,
     text: 'The basement landing features a statue covered in a sheet between two doorways',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/sF3MsRH.png',
+    imgAlt: 'basement landing',
     options: 
         [
             {
@@ -864,8 +868,8 @@ const textNodes =
     {
     id: 38, 
     text: 'The statue depicts a pale faced man in a robe. He is holding a crystal ball and you begin to feel like he is looking back at you even after you cover it back up.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/FqWV0s6.png',
+    imgAlt: 'dark figure',
     options: 
         [
             {
@@ -877,8 +881,8 @@ const textNodes =
     {
     id: 39,
     text: 'A dark hallway with two doors at the end of the hall',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/irhGf2q.png',
+    imgAlt: 'dark hallway',
     options: 
         [
             {
@@ -898,8 +902,8 @@ const textNodes =
     {
     id: 40,
     text: 'Next to the bed is an open chest filled with torches and candles. Hanging from the walls are several robes',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/W3UNi9R.png',
+    imgAlt: "cultist's quarters",
     options: 
         [
             {
@@ -916,8 +920,8 @@ const textNodes =
     {
     id: 41, 
     text: 'A voice is heard somewhere chanting over and over \"He is the Ancient. He is the Land.\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/YZe6sj0.png',
+    imgAlt: 'reliquary room',
     options:
         [
             {
@@ -929,8 +933,8 @@ const textNodes =
     {
     id: 42,
     text: 'A long dark passageway with empty prison cells on each side. You can hear ominous chanting down the hall. \"He is the Ancient. He is the Land.\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/L1p7jP3.png',
+    imgAlt: 'dark hallway with cells on each side',
     options: 
         [
             {
@@ -950,8 +954,8 @@ const textNodes =
     {
     id: 43,
     text: 'The cultists shackled prisoners to the back walls of alcoves here. The prisoners are long gone, but their bones litter the floor.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/hnKYhmP.png',
+    imgAlt: 'dank cells',
     options: 
         [
             {
@@ -963,8 +967,8 @@ const textNodes =
     {
     id: 44,
     text: 'You are startled by a loud noise right behind you. The way back to the basement landing is blocked by a rusty iron portcullis.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/Ef8izCT.png',
+    imgAlt: 'portcullis',
     options:
         [
             {
