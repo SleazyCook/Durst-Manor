@@ -51,6 +51,8 @@ function updateInvDisplay(obj) {
     // rm the first index from state obj (chosen stat)
     inventory.shift()
 
+    console.log(state)
+
     // clear inventory to avoid duplication
     invBox.innerHTML = ''
 
@@ -59,6 +61,7 @@ function updateInvDisplay(obj) {
         
         inventory.forEach(item => {
             let imgSrc = ''
+            // assign relevant inventory item image
             if (item == 'Ally') {
                 imgSrc='https://i.imgur.com/tNFzLGi.png'
             } else if (item == 'Key') {
@@ -85,12 +88,13 @@ function updateInvDisplay(obj) {
                 imgSrc='https://i.imgur.com/Ks8aSCr.png'
             }
 
+            // create image tag, add src tag and title-hover text
             const invItem = document.createElement('img')
             invItem.setAttribute('src', imgSrc)
             invItem.setAttribute('title', item)
-            // invItem.textContent = item
             invBox.appendChild(invItem)
         })
+        // if no inventory
     } else {
         console.log('awaiting inventory')
     }
@@ -103,6 +107,17 @@ function showTextNode(textNodeIndex)
     const textNode = textNodes.find(textNode => textNode.id === textNodeIndex)
     // Display the current prompt on the screen
     textElement.innerText = textNode.text
+
+
+    // display img for each textNode
+
+    if (textNode.img) {
+        let nodeImg = document.createElement('img')
+        nodeImg.setAttribute('src', textNode.img)
+    }
+
+
+
     // While the prompt has its 4 placeholder options
     while (optionButtonsElement.firstChild) 
     {
@@ -166,6 +181,7 @@ const textNodes =
     {
         id: 1,
         text: 'Choose your character ability',
+        img: 'https://i.imgur.com/IrYisp2.png',
         options:
         [
             {
@@ -1132,6 +1148,7 @@ const textNodes =
         [
             {
                 text: 'Return to the wagon',
+                setState: { basket:  true},
                 nextText: 62
             }
         ]   
@@ -1143,8 +1160,8 @@ const textNodes =
         [
             {
                 text: 'Read card',
-                nextText: 63,
-                setState: { basket: true }
+                nextText: 63
+
             }
         ]
     },
