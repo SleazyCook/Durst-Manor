@@ -26,14 +26,19 @@ h2 {
     margin-top: -1em;
 }
 
+/* imgContainer */
+#img-container {
+    text-align: center;
+}
+
 /* Invisible Play Area */
 main {
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 60vh;
+    /* width: 100vw;
+    height: 60vh; */
     font-family: Pacifico;
 }
 
