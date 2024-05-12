@@ -339,7 +339,7 @@ const textNodes =
     {
     id: 9,
     text: 'While the chairs are empty, the dining table itself is covered delicately displaying a massive feast',
-    img: 'https://i.imgur.com/WXY73zm.png',
+    img: 'https://i.imgur.com/fasw0db.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -373,7 +373,7 @@ const textNodes =
     {
     id: 11,
     text: 'An exquisite mahogany desk and a matching high back chair face the entrance, above which hangs a framed picture of a windmill. Floor-to-ceiling bookshelves line the south wall. ',
-    img: 'https://i.imgur.com/zPemCwH.png',
+    img: 'https://i.imgur.com/1uXSTvv.png',
     imgAlt: 'adventure continues',
     options: 
         [
