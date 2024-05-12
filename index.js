@@ -185,7 +185,7 @@ const textNodes =
     {
         id: 1,
         text: 'Choose your character ability',
-        img: 'https://images.squarespace-cdn.com/content/v1/5f84db83e2665954761873a1/1629417769623-5L1R2B413WRVBXBKTX08/dnd-races.jpg',
+        img: 'https://i.imgur.com/i0O98HX.png',
         imgAlt: 'adventure beginning',
         options:
         [
@@ -214,7 +214,7 @@ const textNodes =
     {
     id: 2,
     text: 'You wake up in the back of a wagon. You have agreed to be part of a traveling show led by the eccentric Viktor Lazlo. You see three mysyerious strangers in the wagon who have also join Lazlo\'s circus.',
-    img: 'https://i.ytimg.com/vi/xE0cgp4DbwU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGEggZShkMA8=&rs=AOn4CLCdgNz2Wipau8mOKIJZYv1eG5H23g',
+    img: 'https://i.imgur.com/W6j6xrd.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -237,7 +237,7 @@ const textNodes =
     {
     id: 3,
     text: 'As the group is introducing themselves, the wagon comes to a sudden halt.',
-    img: 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/05/dnd-party-planning.jpg',
+    img: 'https://i.imgur.com/A0H2Q1D.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -271,7 +271,7 @@ const textNodes =
     {
     id: 5,
     text: 'Wolves surround you baring their teeth. You are alone in this fight.',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2OCRTMx6IVSZcmSp52VaiE1r0ORl9axuN8FLzWQE6GaYTt2W7NMmvXNJkGoZpM0AyyI&usqp=CAU',
+    img: 'https://i.imgur.com/gZjlTRa.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -284,7 +284,7 @@ const textNodes =
     {
     id: 6,
     text: 'The children, Rose and Thorn Durst, take you and Viktor\'s band of strangers to a decrepit house. Although they are too scared to go in with you, they implore you to rescue baby Walter.',
-    img: 'https://www.worldanvil.com/uploads/images/87d234ac5a355920deae25f5cee75057.gif',
+    img: 'https://i.imgur.com/T0Zxa3L.png',
     imgAlt: 'adventure continues',
     options:  
         [
@@ -301,7 +301,7 @@ const textNodes =
     {
     id: 7,
     text: 'Despite it\'s outward appearance, the inside of the house seems to be immaculate. The rooms are clean and brightly lit by a warm fire.',
-    img: 'https://static.wikia.nocookie.net/hauntedmasnion/images/1/1d/FoyerDL.jpg/revision/latest?cb=20170928170851',
+    img: 'https://i.imgur.com/nOIlbjM.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -314,7 +314,7 @@ const textNodes =
     {
     id: 8,
     text: 'The main hall connects to many rooms within the house. You decide where to go next.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/zuJkzhb.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -339,7 +339,7 @@ const textNodes =
     {
     id: 9,
     text: 'While the chairs are empty, the dining table itself is covered delicately displaying a massive feast',
-    img: 'https://i.redd.it/0yabbvvyrko71.png',
+    img: 'https://i.imgur.com/WXY73zm.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -360,7 +360,7 @@ const textNodes =
     {
     id: 10,
     text: 'You have been poisoned to death.',
-    img: 'https://wp.technologyreview.com/wp-content/uploads/2023/10/poison-corrupts4.jpg?w=3000',
+    img: 'https://i.imgur.com/MgArGqy.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -373,7 +373,7 @@ const textNodes =
     {
     id: 11,
     text: 'An exquisite mahogany desk and a matching high back chair face the entrance, above which hangs a framed picture of a windmill. Floor-to-ceiling bookshelves line the south wall. ',
-    img: 'https://i.redd.it/2plltdt5sko71.png',
+    img: 'https://i.imgur.com/zPemCwH.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -412,7 +412,7 @@ const textNodes =
     {
     id: 13,
     text: 'Inside the desk drawer, you find a key',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/5LouXWK.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -443,7 +443,7 @@ const textNodes =
     {
     id: 15,
     text: 'An old dart trap appears to have killed a man in this secret room a long time ago. Cluthed in his hand is a letter.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/5lLJOVB.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -456,7 +456,7 @@ const textNodes =
     {
     id: 16,
     text: '\" My most loyal servant, \n \I am not a messiah sent to you by the Dark Powers of this land. I have not come to lead you on a path to immortality. However many souls you have bled on your hidden alter; however many visitors you have tortured in your dungeon, know that you are not the ones that have brought me to this beautiful land. You are but worms writhing in my earth. \n You say that you are cursed, your fortunes spent. You abandoned love for madness, took solace in the bosom of another woman, and sired a basard son. Cursed by darkness? I think not. I much prefer you as you are. \n Your dread lord and master, \n Strahd von Zarovich\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/K7FmSRX.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -665,7 +665,7 @@ const textNodes =
     {
     id: 26,
     text: 'A bloody note reads \n \"I have disgraced our family. I have had an affair with our nursemaid. As much as I love baby Walter, my wife cannot stand the sight of him. She believes that he is our only hope for salvation. I should have never let her take him to the basement. I just cannot bare it anymore.\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/K7FmSRX.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -1295,7 +1295,7 @@ const textNodes =
     {
     id: 63,
     text: '\"Welcome to Barovia! \n -Strahd von Zarovich\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/K7FmSRX.png',
     imgAlt: 'adventure continues'
     },
     {
