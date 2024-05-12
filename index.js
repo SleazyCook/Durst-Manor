@@ -15,7 +15,7 @@ function startGame() {
 // create a function to show chosen stat
 const statDisplay = document.getElementById('stat')
 
-// Display Selected Stat
+// Display Selected Stat 
 function updateStatDisplay(obj) {
     console.log('updating stat')
     if ('strength' in obj) {
@@ -271,7 +271,7 @@ const textNodes =
     {
     id: 5,
     text: 'Wolves surround you baring their teeth. You are alone in this fight.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA2OCRTMx6IVSZcmSp52VaiE1r0ORl9axuN8FLzWQE6GaYTt2W7NMmvXNJkGoZpM0AyyI&usqp=CAU',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -284,7 +284,7 @@ const textNodes =
     {
     id: 6,
     text: 'The children, Rose and Thorn Durst, take you and Viktor\'s band of strangers to a decrepit house. Although they are too scared to go in with you, they implore you to rescue baby Walter.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://www.worldanvil.com/uploads/images/87d234ac5a355920deae25f5cee75057.gif',
     imgAlt: 'adventure continues',
     options:  
         [
@@ -301,7 +301,7 @@ const textNodes =
     {
     id: 7,
     text: 'Despite it\'s outward appearance, the inside of the house seems to be immaculate. The rooms are clean and brightly lit by a warm fire.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://static.wikia.nocookie.net/hauntedmasnion/images/1/1d/FoyerDL.jpg/revision/latest?cb=20170928170851',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -339,7 +339,7 @@ const textNodes =
     {
     id: 9,
     text: 'While the chairs are empty, the dining table itself is covered delicately displaying a massive feast',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.redd.it/0yabbvvyrko71.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -360,7 +360,7 @@ const textNodes =
     {
     id: 10,
     text: 'You have been poisoned to death.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://wp.technologyreview.com/wp-content/uploads/2023/10/poison-corrupts4.jpg?w=3000',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -373,7 +373,7 @@ const textNodes =
     {
     id: 11,
     text: 'An exquisite mahogany desk and a matching high back chair face the entrance, above which hangs a framed picture of a windmill. Floor-to-ceiling bookshelves line the south wall. ',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.redd.it/2plltdt5sko71.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -394,7 +394,7 @@ const textNodes =
     {
     id: 12,
     text: 'The desk drawer is locked.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/hKET8Qm.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -426,7 +426,7 @@ const textNodes =
     {
     id: 14,
     text: 'One of the books looks like a lever',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/xYcA4Dj.png',
     imgAlt: 'adventure continues',
     options: 
         [
@@ -550,7 +550,7 @@ const textNodes =
     {
     id: 21,
     text: 'The balcony hosts a suit of armor and some more doors. You decide where to go next.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.redd.it/6xhthrvyrko71.png',
     imgAlt: 'adventure continues',
     options:
         [
