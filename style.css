@@ -87,7 +87,7 @@ main {
     text-align: center;
 }
 
-.inventory-box img {
+#inventory-box img {
     height: 40px;
 }
 

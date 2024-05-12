@@ -60,35 +60,25 @@ function updateInvDisplay(obj) {
             let imgSrc = ''
             if (item = 'Ally') {
                 imgSrc='https://i.imgur.com/tNFzLGi.png'
-            }
-            if (item = 'Key') {
+            } else if (item = 'Key') {
                 imgSrc='https://i.imgur.com/5LouXWK.png'
-            }
-            if (item = 'Dog') {
+            } else if (item = 'Dog') {
                 imgSrc='https://i.imgur.com/h85QU83.png'
-            }
-            if (item = 'Longsword') {
+            } else if (item = 'Longsword') {
                 imgSrc='https://i.imgur.com/PmWP2BL.png'
-            }
-            if (item = 'Shortsword') {
+            } else if (item = 'Shortsword') {
                 imgSrc='https://i.imgur.com/EnUwMfX.png'
-            }
-            if (item = 'Pen') {
+            } else if (item = 'Pen') {
                 imgSrc='https://i.imgur.com/Y8sJKPy.png'
-            }
-            if (item = 'Paddle') {
+            } else if (item = 'Paddle') {
                 imgSrc='https://i.imgur.com/nPYhd7w.png'
-            }
-            if (item = 'Secret') {
+            } else if (item = 'Secret') {
                 imgSrc='https://i.imgur.com/nEwS8SV.png'
-            }
-            if (item = 'Bones') {
+            } else if (item = 'Bones') {
                 imgSrc='https://i.imgur.com/8pxd70A.png'
-            }
-            if (item = 'Robe') {
+            } else if (item = 'Robe') {
                 imgSrc='https://i.imgur.com/a7q6qI3.png'
-            }
-            if (item = 'Remains') {
+            } else if (item = 'Remains') {
                 imgSrc='https://i.imgur.com/thHEnVX.png'
             }
 
