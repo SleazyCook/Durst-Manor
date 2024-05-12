@@ -12,8 +12,59 @@ function startGame() {
     showTextNode(1)
 }
 
-// create a function to show stats and inventory
+// create a function to show chosen stat
+const statDisplay = document.getElementById('stat')
 
+// Display Selected Stat
+function updateStatDisplay(obj) {
+    console.log('updating stat')
+    if ('strength' in obj) {
+        statDisplay.innerText = 'Strength'
+    } else if ('dexterity' in obj) {
+        statDisplay.innerText = 'Dexterity'
+    } else if ('charisma' in obj) {
+        statDisplay.innerText = 'Charisma'
+    } else if ('luck' in obj) {
+        statDisplay.innerText = 'Luck'
+    } else {
+        statDisplay.innerText = 'Awaiting Stat'
+    }
+}
+
+// create a function to show inventory
+const invBox = document.getElementById('inventory-box')
+
+// Display inventory items
+function updateInvDisplay(obj) {
+    // build inventory list from state
+    let inventory = []
+
+    for (key in obj) {
+        if (!obj[0]) {
+
+            let formattedKey = key[0].toUpperCase() + key.slice(1)
+            inventory.push(formattedKey)
+        }
+    }
+
+    // rm the first index from state obj (chosen stat)
+    inventory.shift()
+
+    // clear inventory to avoid duplication
+    invBox.innerHTML = ''
+
+    // build inventory elements
+    if (inventory.length > 0) {
+        
+        inventory.forEach(item => {
+            const invItem = document.createElement('p')
+            invItem.textContent = item
+            invBox.appendChild(invItem)
+        })
+    } else {
+        console.log('awaiting inventory')
+    }
+}
 
 // create a function for the prompt 
 function showTextNode(textNodeIndex) 
@@ -45,8 +96,13 @@ function showTextNode(textNodeIndex)
                     // add the button
                     optionButtonsElement.appendChild(button)
 
-                    // write a callback function to check for and render stats and inventory and call it here
-                    console.log('test state', state)
+                    // update Stat when selected
+                    if (textNode.id < 3) {
+                        updateStatDisplay(state)
+                    }
+
+                    // update inventory
+                    updateInvDisplay(state)
                 }
         })
 }
@@ -882,11 +938,13 @@ const textNodes =
         [
             {
                 text: 'Sacrifice an ally',
-                nextText: 52
+                nextText: 52,
+                setState: { ally: false },
             },
             {
                 text: 'Sacrifice puppy (Offer dog)',
                 requiredState: (currentState) => currentState.dog,
+                setState: { dog: false },
                 nextText: 53
             },
             {
@@ -1004,7 +1062,14 @@ const textNodes =
     },
     {
     id: 58,
-    text: 'The cult permits you to leave. On the way out of the manor, you can hear Rose and Thorn crying hysterically but you are otherwise left alone.'
+    text: 'The cult permits you to leave. On the way out of the manor, you can hear Rose and Thorn crying hysterically but you are otherwise left alone.',
+    options: 
+    [
+        {
+            text: 'Return to the wagon',
+            nextText: 62
+        }
+    ]   
     },
     {
     id: 59,
@@ -1025,6 +1090,7 @@ const textNodes =
             {
                 text: 'Bury remains',
                 requiredState: (currentState) => currentState.bones || currentState.remains,
+                setState: { bones: false, remains: false },
                 nextText: 61
             },
             {
