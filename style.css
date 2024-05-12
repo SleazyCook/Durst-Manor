@@ -87,6 +87,10 @@ main {
     text-align: center;
 }
 
+.inventory-box img {
+    height: 40px;
+}
+
 /* Footer  */
 footer {
     text-align: center;
