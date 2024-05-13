@@ -26,6 +26,19 @@ h2 {
     margin-top: -1em;
 }
 
+/* STAT display header */
+.visual-feedback {
+    color: #ffdba7;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(119, 31, 9);
+    width: 800px;
+    margin: 0 auto;
+    padding: 1rem 0;
+    font-family: "Sedan SC", serif;
+    font-size: 1.5rem;
+}
+
 /* Image for prompts */
 #img-container {
     text-align: center;
@@ -72,10 +85,9 @@ main {
 /* Main Container */
 .container {
     width: 800px;
-    max-width: 80%;
     background-color: #363434;
     padding: 20px;
-    border-radius: 2px;
+    border-radius: 0 0 10px 10px;
     box-shadow: 0 0 10px 2px;
     text-align: center;
 }
@@ -112,14 +124,6 @@ main {
     filter: drop-shadow(4px 4px 4px black);
 
 }
-
-/* inventory box */
-.visual-feedback {
-    color: white;
-    text-align: center;
-}
-
-
 
 /* Footer  */
 footer {

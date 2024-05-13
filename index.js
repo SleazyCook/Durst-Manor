@@ -27,7 +27,7 @@ function updateStatDisplay(obj) {
     } else if ('luck' in obj) {
         statDisplay.innerText = 'Luck'
     } else {
-        statDisplay.innerText = 'Awaiting Stat'
+        statDisplay.innerText = 'Choose your play style below'
     }
 }
 
