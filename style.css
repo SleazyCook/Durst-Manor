@@ -79,6 +79,13 @@ main {
     padding-top: 5px;
     padding-bottom: 10px;
     margin: 0 auto;
+    border: 1px solid #ffdba7;
+}
+
+#inv-label {
+    color: #ffdba7;
+    display: inline-block;
+    transform: translate(5px, 20px);
 }
 
 #inventory-box img {
