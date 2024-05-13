@@ -53,8 +53,9 @@ main {
         
         */
 
-        background-image: linear-gradient(rgba(119, 31, 9, 0.5), rgba(119, 31, 9, 0.5)),
+        background-image: linear-gradient(rgba(119, 31, 9, 0.9), rgba(119, 31, 9, 0.9)),
                   url("https://i.imgur.com/JCdAfXT.png");
+        background-position: cover;
 }
 
 /* Image for prompts */
