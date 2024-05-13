@@ -834,7 +834,7 @@ const textNodes =
     {
     id: 36,
     text: 'You finally reach the basement floor. Looking back, you can barely see the light from the top of the stairs.',
-    img: 'https://i.imgur.com/RLvfiqO.png',
+    img: 'https://i.imgur.com/zFZBseu.png',
     imgAlt: 'bottom of the staircase',
     options: 
         [
