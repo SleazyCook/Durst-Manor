@@ -98,6 +98,12 @@ main {
     text-align: center;
 }
 
+#inventory-box {
+    text-align: center;
+    color: white;
+    height: 40px;
+}
+
 #inventory-box img {
     height: 40px;
 }
