@@ -1238,7 +1238,7 @@ const textNodes =
     },
     {
     id: 59,
-    text: 'You run out of the house as fast you can. The walls begin to crumble around you.',
+    text: 'The walls begin to crumble around you. You run out of the house as fast you can.',
     img: 'https://i.imgur.com/6fQMym7.png',
     imgAlt: 'manor collapsing',
     options: 
