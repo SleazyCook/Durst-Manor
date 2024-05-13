@@ -157,6 +157,7 @@ footer {
 
     #img-container img {
         height: 165px;
+        max-width: 340px;
     }
 
     .btn-grid {
