@@ -84,11 +84,14 @@ main {
 /* Main Container */
 .container {
     width: 800px;
-    background-color: #363434;
+    /* background-color: #363434; */
     padding: 20px;
     border-radius: 0 0 10px 10px;
     text-align: center;
     padding-top: 15px;
+    background-image: linear-gradient(rgba(54, 52, 52, 0.95), rgba(54, 52, 52, 0.95)),
+        url("https://i.imgur.com/JCdAfXT.png");
+    background-position: cover; 
 }
 
 /* Prompts */
@@ -107,7 +110,6 @@ main {
 
 .btn {
     color: #ffdba7;
-    background-color: hsl(12, 85%, 25%);
     border: 2px solid hsl(12, 85%, 10%);
     border-radius: 2px;
     padding: 5px 10px;
