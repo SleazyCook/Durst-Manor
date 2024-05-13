@@ -39,23 +39,13 @@ main {
     color: #ffdba7;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    background-color: rgb(119, 31, 9);
     width: 800px;
     padding: 1rem 0;
     font-family: "Sedan SC", serif;
     font-size: 1.5rem;
-
-    /* background-image: linear-gradient(
-        to right bottom, 
-        rgba(119, 31, 9, 0.2)
-        rgba(119, 31, 9, 0.8)
+    background-image: linear-gradient(rgba(119, 31, 9, 0.95), rgba(119, 31, 9, 0.95)),
         url("https://i.imgur.com/JCdAfXT.png");
-        
-        */
-
-        background-image: linear-gradient(rgba(119, 31, 9, 0.9), rgba(119, 31, 9, 0.9)),
-                  url("https://i.imgur.com/JCdAfXT.png");
-        background-position: cover;
+    background-position: cover;
 }
 
 /* Image for prompts */
@@ -127,6 +117,9 @@ main {
     transition: all .3s;
     width: 380px;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(119, 31, 9, 0.95), rgba(119, 31, 9, 0.95)),
+        url("https://i.imgur.com/JCdAfXT.png");
+    background-position: cover;
 }
 
 .btn:hover {
