@@ -143,6 +143,7 @@ main {
 footer {
     text-align: center;
     color: rgb(119, 31, 9);
+    margin-top: 2rem;
 }
 
 #author {
