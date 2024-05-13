@@ -44,6 +44,17 @@ main {
     padding: 1rem 0;
     font-family: "Sedan SC", serif;
     font-size: 1.5rem;
+
+    /* background-image: linear-gradient(
+        to right bottom, 
+        rgba(119, 31, 9, 0.2)
+        rgba(119, 31, 9, 0.8)
+        url("https://i.imgur.com/JCdAfXT.png");
+        
+        */
+
+        background-image: linear-gradient(rgba(119, 31, 9, 0.5), rgba(119, 31, 9, 0.5)),
+                  url("https://i.imgur.com/JCdAfXT.png");
 }
 
 /* Image for prompts */
