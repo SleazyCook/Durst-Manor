@@ -26,15 +26,32 @@ h2 {
     margin-top: -1em;
 }
 
-/* imgContainer */
+/* Image for prompts */
 #img-container {
     text-align: center;
+    height: 300px;
+    border: 1px solid black;
+    width: 800px;
+    margin: 0 auto;
 }
 
 #img-container img {
     height: 300px;
     max-height: 300px;
     border-radius: 5px;
+    filter: grayscale(80%);
+}
+
+/* INVENTORY */
+#inventory-box {
+    text-align: center;
+    color: white;
+    height: 40px;
+    padding: 5px 0;
+}
+
+#inventory-box img {
+    height: 40px;
 }
 
 /* Invisible Play Area */
@@ -98,15 +115,7 @@ main {
     text-align: center;
 }
 
-#inventory-box {
-    text-align: center;
-    color: white;
-    height: 40px;
-}
 
-#inventory-box img {
-    height: 40px;
-}
 
 /* Footer  */
 footer {

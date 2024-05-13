@@ -674,7 +674,7 @@ const textNodes =
     options: 
         [
             {
-                text: 'Pocket the note',
+                text: 'Move on',
                 nextText: 25
             }
         ]
