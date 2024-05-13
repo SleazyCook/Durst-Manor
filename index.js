@@ -65,13 +65,13 @@ function updateInvDisplay(obj) {
             if (item == 'Ally') {
                 imgSrc='https://i.imgur.com/tNFzLGi.png'
             } else if (item == 'Key') {
-                imgSrc='https://i.imgur.com/5LouXWK.png'
+                imgSrc='https://i.imgur.com/cTYjPiB.png'
             } else if (item == 'Dog') {
                 imgSrc='https://i.imgur.com/h85QU83.png'
             } else if (item == 'Longsword') {
                 imgSrc='https://i.imgur.com/PmWP2BL.png'
             } else if (item == 'Shortsword') {
-                imgSrc='https://i.imgur.com/EnUwMfX.png'
+                imgSrc='https://i.imgur.com/L7kJDhv.png'
             } else if (item == 'Pen') {
                 imgSrc='https://i.imgur.com/Y8sJKPy.png'
             } else if (item == 'Paddle') {
@@ -412,7 +412,7 @@ const textNodes =
     {
     id: 13,
     text: 'Inside the desk drawer, you find a key',
-    img: 'https://i.imgur.com/5LouXWK.png',
+    img: 'https://i.imgur.com/cTYjPiB.png',
     imgAlt: 'hidden key',
     options: 
         [
