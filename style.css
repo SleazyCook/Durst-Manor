@@ -53,6 +53,7 @@ main {
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url("https://i.imgur.com/GgseEyK.png");
     background-position: cover; 
+    height: 400px;
 }
 
 /* Image for prompts */
@@ -80,6 +81,7 @@ main {
     padding-top: 5px;
     padding-bottom: 10px;
     margin: 0 auto;
+    margin-bottom: 10px;
     border: 1px solid #ffdba7;
 }
 
@@ -159,6 +161,11 @@ footer {
         width: 380px;
     }
 
+    #all-img-box {
+        background-color: red;
+        height: 275px;
+    }
+
     #img-container {
         height: 185px;
     }
@@ -166,6 +173,14 @@ footer {
     #img-container img {
         height: 165px;
         max-width: 340px;
+    }
+
+    #inventory-box {
+        width: 370px;
+    }
+
+    #inv-label {
+        transform: translate(10px, 20px);
     }
 
     .btn-grid {
