@@ -27,7 +27,7 @@ h2 {
 }
 
 /* STAT display header */
-.visual-feedback {
+.stat-header {
     color: #ffdba7;
     text-align: center;
     border-radius: 10px 10px 0 0;
@@ -61,7 +61,7 @@ h2 {
     color: white;
     height: 40px;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     width: 800px;
     margin: 0 auto;
     background-color: black;
@@ -90,6 +90,7 @@ main {
     border-radius: 0 0 10px 10px;
     box-shadow: 0 0 10px 2px;
     text-align: center;
+    padding-top: 5px;
 }
 
 /* Prompts */
