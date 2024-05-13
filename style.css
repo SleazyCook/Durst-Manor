@@ -169,4 +169,10 @@ footer {
         width: 340px;
         text-shadow: 1px 1px 1px black;
     }
+
+    .btn:hover {
+        border-color: black;
+        cursor: pointer;
+        filter: none;
+    }
 }
