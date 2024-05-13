@@ -769,8 +769,7 @@ const textNodes =
             },
             {
                 text: 'Take bones',
-                nextText: 33,
-                setState: { bones: true}
+                nextText: 33
             },
             {
                 text: 'Leave room',
@@ -801,6 +800,7 @@ const textNodes =
         [
             {
                 text: 'Continue',
+                setState: { bones: true},
                 nextText: 31
             }
         ]
@@ -919,7 +919,7 @@ const textNodes =
     },
     {
     id: 41, 
-    text: 'A voice is heard somewhere chanting over and over \"He is the Ancient. He is the Land.\"',
+    text: 'A voice is heard somewhere chanting over and over \n \"He is the Ancient. He is the Land.\"',
     img: 'https://i.imgur.com/YZe6sj0.png',
     imgAlt: 'reliquary room',
     options:
