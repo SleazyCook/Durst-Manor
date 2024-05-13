@@ -49,11 +49,16 @@ main {
     background-position: cover;
 }
 
+#all-img-box {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("https://i.imgur.com/GgseEyK.png");
+    background-position: cover; 
+}
+
 /* Image for prompts */
 #img-container {
     text-align: center;
     height: 310px;
-    background-color: black;
     width: 800px;
     margin: 0 auto;
     padding-top: 10px;
@@ -75,7 +80,6 @@ main {
     padding-bottom: 10px;
     width: 800px;
     margin: 0 auto;
-    background-color: black;
 }
 
 #inventory-box img {
