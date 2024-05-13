@@ -180,6 +180,7 @@ footer {
     }
 
     #inv-label {
+        font-size: .8rem;
         transform: translate(10px, 20px);
     }
 
