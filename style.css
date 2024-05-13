@@ -41,7 +41,6 @@ main {
     text-shadow: 3px 3px 3px black;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    width: 800px;
     padding: 1rem 0;
     font-family: "Sedan SC", serif;
     font-size: 1.5rem;
@@ -60,7 +59,6 @@ main {
 #img-container {
     text-align: center;
     height: 310px;
-    width: 800px;
     margin: 0 auto;
     padding-top: 10px;
 }
@@ -80,7 +78,6 @@ main {
     height: 55px;
     padding-top: 5px;
     padding-bottom: 10px;
-    width: 800px;
     margin: 0 auto;
 }
 
@@ -90,7 +87,6 @@ main {
 
 /* Main Container */
 .container {
-    width: 800px;
     padding: 20px;
     border-radius: 0 0 10px 10px;
     text-align: center;
@@ -148,4 +144,24 @@ footer {
 
 #author {
     font-family: 'Berkshire Swash';
+}
+
+/* mobile version */
+@media (max-width: 850px) {
+    main {
+        width: 400px;
+    }
+
+    #img-container img {
+        height: 180px;
+    }
+
+    .btn-grid {
+        grid-template-columns: repeat(1, auto);
+        gap: 10px;
+    }
+    
+    .btn {
+        width: 340px;
+    }
 }
