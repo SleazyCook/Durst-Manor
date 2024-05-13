@@ -270,14 +270,14 @@ const textNodes =
     },
     {
     id: 5,
-    text: 'Wolves surround you baring their teeth. You are alone in this fight.',
+    text: 'Wolves surround you baring their teeth. You are alone and unarmed.',
     img: 'https://i.imgur.com/gZjlTRa.png',
-    imgAlt: 'surrounde by wolves',
+    imgAlt: 'surrounded by wolves',
     options: 
         [
             {
                 text: 'Fight to the death',
-                nextText: -1
+                nextText: 46
             }
         ]
     },
@@ -809,7 +809,7 @@ const textNodes =
     id: 34,
     text: 'The wall slides open to reveal a staircase descending into the dark.',
     img: 'https://i.imgur.com/xuqSzIj.png',
-    imgAlt: 'adventure continues',
+    imgAlt: 'hidden staircase',
     options:
         [
             {
@@ -822,7 +822,7 @@ const textNodes =
     id: 35,
     text: 'The stairs descend deeper and deeper...',
     img: 'https://i.imgur.com/wxo8u7C.png',
-    imgAlt: 'hidden staircase',
+    imgAlt: 'descending the staircase',
     options: 
         [
             {
@@ -835,7 +835,7 @@ const textNodes =
     id: 36,
     text: 'You finally reach the basement floor. Looking back, you can barely see the light from the top of the stairs.',
     img: 'https://i.imgur.com/RLvfiqO.png',
-    imgAlt: 'descending the staircase',
+    imgAlt: 'bottom of the staircase',
     options: 
         [
             {
@@ -985,8 +985,8 @@ const textNodes =
     {
     id: 45, 
     text: 'A ghoul in black robes starts towards you',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/xLwsPUD.png',
+    imgAlt: 'attacking ghoul',
     options:
         [
             {
@@ -1017,22 +1017,22 @@ const textNodes =
     },
     {
     id: 46,
-    text: 'Inactive ID',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    text: 'You are torn apart by wolves',
+    img: 'https://i.imgur.com/u27AsrU.png',
+    imgAlt: 'death by wolves',
     options:
         [
             {
-                text: 'Continue on',
-                nextText: 49
+                text: 'Restart',
+                nextText: -1
             }
         ]
     },
     {
     id: 47,
     text: 'You are clawed to death by the ghoul cultist.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/u27AsrU.png',
+    imgAlt: 'death by ghoul',
     options: 
         [
             {
@@ -1044,8 +1044,8 @@ const textNodes =
     {
     id: 48,
     text: 'You sneak by in your disguise',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/JWgmXeQ.png',
+    imgAlt: 'cultist disguise',
     options:
         [
             {
@@ -1057,8 +1057,8 @@ const textNodes =
     {
     id: 49,
     text: 'You have reached the ritual chamber. The chanting is echoeing through your skull. \"He is the Ancient. He is the Land. He is the Ancient. He is the Land.\" The chamber steps down into knee-high waters.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/Ad97q9E.png',
+    imgAlt: 'ritual chamber',
     options: 
         [
             {
@@ -1070,8 +1070,8 @@ const textNodes =
     {
     id: 50,
     text: 'The chanting stops as you peer into this 40 foot square room. The smooth masonry walls provide excellent acoustics. Featureless stone pillars support the ceilig, and a breach in the west wall leads to dark caved heaped with refuse. Murky waters cover most of the floor. In the middle of the room, stairs rise to form an octagonal dais that rises fromt eh water. Rusty chains with shackles dangle from the ceiling directly above a stone alter mounted on the dais. The altar is carved with hiddeous depioctions of grasping ghouls and is stained with dry blood.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/Ad97q9E.png',
+    imgAlt: 'ritual chamber',
     options:
         [
             {
@@ -1083,8 +1083,8 @@ const textNodes =
     {
     id: 51,
     text: 'On top of the altar is a small and rusty sacrificial blade. The chants start up again, louder this time. \"One must die. One must die. One must die.\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/Ad97q9E.png',
+    imgAlt: 'ritual chamber',
     options:
         [
             {
@@ -1107,8 +1107,8 @@ const textNodes =
     {
     id: 52,
     text: 'Your ally draws their blade to defend themselves.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/oRini0D.png',
+    imgAlt: 'fight to the death',
     options:
         [
             {
@@ -1140,8 +1140,8 @@ const textNodes =
     {
     id: 53,
     text: 'A satisfied voice bellows fills the room \"Your sacrifice has been accepted\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/JWgmXeQ.png',
+    imgAlt: 'satisfied cultists',
     options: 
         [
             {
@@ -1153,8 +1153,8 @@ const textNodes =
     {
     id: 54,
     text: 'Your death has satisfied the cultists.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/JWgmXeQ.png',
+    imgAlt: 'satisfied cultists',
     options:
         [ 
             {
@@ -1166,8 +1166,8 @@ const textNodes =
     {
     id: 55,
     text: 'The chanting rises once more as a large monstrosity appears from the dark cave before you. \"Then you will make a fine sacrifice\"',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/mykJ545.png',
+    imgAlt: 'angry flesh mound',
     options:
         [
             {
@@ -1198,9 +1198,9 @@ const textNodes =
     },
     {
     id: 56,
-    text: 'The Shambling mound is struck down. His body crumbles around his beating heart - Baby Walter\'s rotting corpse.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    text: 'The flesh mound is struck down. His body crumbles around his beating heart - Baby Walter\'s rotting corpse.',
+    img: 'https://i.imgur.com/Ad97q9E.png',
+    imgAlt: 'ritual chamber',
     options:
         [
             {
@@ -1213,8 +1213,8 @@ const textNodes =
     {
     id: 57,
     text: 'The shambling mound consumes your souls. A sacrifice satiates the beast... for now',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/u27AsrU.png',
+    imgAlt: 'death by flesh mound',
     options:
         [
             {
@@ -1226,8 +1226,8 @@ const textNodes =
     {
     id: 58,
     text: 'The cult permits you to leave. On the way out of the manor, you can hear Rose and Thorn crying hysterically but you are otherwise left alone.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/T0Zxa3L.png',
+    imgAlt: 'death house exterior',
     options: 
     [
         {
@@ -1239,8 +1239,8 @@ const textNodes =
     {
     id: 59,
     text: 'You run out of the house as fast you can. The walls begin to crumble around you.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/6fQMym7.png',
+    imgAlt: 'manor collapsing',
     options: 
         [
             {
@@ -1251,9 +1251,9 @@ const textNodes =
     },
     {
     id: 60,
-    text: 'You make it outside of the house just in time',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    text: 'You make it outside of the house just in time - and yet the house appears unharmed',
+    img: 'https://i.imgur.com/T0Zxa3L.png',
+    imgAlt: 'death house exterior',
     options: 
         [
             {
@@ -1271,8 +1271,8 @@ const textNodes =
     {
     id: 61,
     text: 'Rose and Thorn have been properly laid to rest with their brother Walter and their collective suffering has ended.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/ZJcshNE.png',
+    imgAlt: 'fresh graves',
     options: 
         [
             {
@@ -1285,8 +1285,8 @@ const textNodes =
     {
     id: 62,
     text: 'Waiting for you in front of Lazlo\'s wagon is the biggest git basket you have ever seen. Filled with fruit and wine and card front and center.',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/Ks8aSCr.png',
+    imgAlt: 'mysterious basket',
     options:
         [
             {
@@ -1299,13 +1299,13 @@ const textNodes =
     {
     id: 63,
     text: '\"Welcome to Barovia! \n -Strahd von Zarovich\"',
-    img: 'https://i.imgur.com/K7FmSRX.png',
-    imgAlt: 'adventure continues'
+    img: 'https://i.imgur.com/FqWV0s6.png',
+    imgAlt: 'face of strahd'
     },
     {
     id: 64,
     text: 'An ordinary closet with a broom leaning against a wall',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
+    img: 'https://i.imgur.com/bmVsdDh.png',
     imgAlt: 'adventure continues',
     options:
         [
@@ -1322,8 +1322,8 @@ const textNodes =
     {
     id: 65,
     text: 'The evil broom animates, catching you off guard, its tears off your face with its bristles!',
-    img: 'https://upload.wikimedia.org/wikipedia/en/a/a7/Strahd_von_Zarovich_in_Shadows_of_the_Vampire.jpg',
-    imgAlt: 'adventure continues',
+    img: 'https://i.imgur.com/u27AsrU.png',
+    imgAlt: 'death by broom',
     options:
         [
             {

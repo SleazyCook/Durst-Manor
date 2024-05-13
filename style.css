@@ -26,6 +26,14 @@ h2 {
     margin-top: -1em;
 }
 
+
+/* Main - stats, images, inventory, prompts, btns */
+main {
+    box-shadow: 0 0 10px 2px;
+    width: 800px;
+    margin: 0 auto;
+}
+
 /* STAT display header */
 .stat-header {
     color: #ffdba7;
@@ -33,7 +41,6 @@ h2 {
     border-radius: 10px 10px 0 0;
     background-color: rgb(119, 31, 9);
     width: 800px;
-    margin: 0 auto;
     padding: 1rem 0;
     font-family: "Sedan SC", serif;
     font-size: 1.5rem;
@@ -42,11 +49,11 @@ h2 {
 /* Image for prompts */
 #img-container {
     text-align: center;
-    height: 305px;
+    height: 310px;
     background-color: black;
     width: 800px;
     margin: 0 auto;
-    padding-top: 5px
+    padding-top: 10px;
 }
 
 #img-container img {
@@ -72,26 +79,14 @@ h2 {
     height: 40px;
 }
 
-/* Invisible Play Area */
-main {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 100vw;
-    height: 60vh; */
-    font-family: Pacifico;
-}
-
 /* Main Container */
 .container {
     width: 800px;
     background-color: #363434;
     padding: 20px;
     border-radius: 0 0 10px 10px;
-    box-shadow: 0 0 10px 2px;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 /* Prompts */
