@@ -118,6 +118,8 @@ main {
     font-family: "Sedan SC", serif;
     font-size: 1.15rem;
     transition: all .3s;
+    width: 380px;
+    margin: 0 auto;
 }
 
 .btn:hover {
