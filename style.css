@@ -132,7 +132,6 @@ main {
     border-color: black;
     cursor: pointer;
     filter: drop-shadow(4px 4px 4px black);
-
 }
 
 /* Footer  */
@@ -152,6 +151,10 @@ footer {
         width: 400px;
     }
 
+    #img-container {
+        height: 200px;
+    }
+
     #img-container img {
         height: 180px;
     }
@@ -163,5 +166,6 @@ footer {
     
     .btn {
         width: 340px;
+        text-shadow: 1px 1px 1px black;
     }
 }
