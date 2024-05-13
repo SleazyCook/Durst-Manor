@@ -89,7 +89,7 @@ main {
     border-radius: 0 0 10px 10px;
     text-align: center;
     padding-top: 15px;
-    background-image: linear-gradient(rgba(54, 52, 52, 0.95), rgba(54, 52, 52, 0.95)),
+    background-image: linear-gradient(rgba(54, 52, 52, 0.85), rgba(54, 52, 52, 0.85)),
         url("https://i.imgur.com/ztyT3yE.png");
     background-position: cover; 
 }
