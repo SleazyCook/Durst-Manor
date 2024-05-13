@@ -148,15 +148,15 @@ footer {
 /* mobile version */
 @media (max-width: 850px) {
     main {
-        width: 400px;
+        width: 380px;
     }
 
     #img-container {
-        height: 200px;
+        height: 185px;
     }
 
     #img-container img {
-        height: 180px;
+        height: 165px;
     }
 
     .btn-grid {
