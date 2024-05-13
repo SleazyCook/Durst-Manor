@@ -50,7 +50,7 @@ main {
 }
 
 #all-img-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
         url("https://i.imgur.com/GgseEyK.png");
     background-position: cover; 
 }
@@ -69,6 +69,7 @@ main {
     max-height: 300px;
     border-radius: 5px;
     filter: grayscale(80%);
+    box-shadow: 4px 4px 10px 2px;
 }
 
 /* INVENTORY */
