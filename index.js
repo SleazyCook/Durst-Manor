@@ -1069,7 +1069,7 @@ const textNodes =
     },
     {
     id: 50,
-    text: 'The chanting stops as you peer into this 40 foot square room. The smooth masonry walls provide excellent acoustics. Featureless stone pillars support the ceilig, and a breach in the west wall leads to dark caved heaped with refuse. Murky waters cover most of the floor. In the middle of the room, stairs rise to form an octagonal dais that rises fromt eh water. Rusty chains with shackles dangle from the ceiling directly above a stone alter mounted on the dais. The altar is carved with hiddeous depioctions of grasping ghouls and is stained with dry blood.',
+    text: 'The chanting stops as you peer into this 40 foot square room. The smooth masonry walls provide excellent acoustics. Featureless stone pillars support the ceiling, and a breach in the west wall leads to dark caved heaped with refuse. Murky waters cover most of the floor. In the middle of the room, stairs rise to form an octagonal dais that rises from the water. Rusty chains with shackles dangle from the ceiling directly above a stone alter mounted on the dais. The altar is carved with hiddeous depioctions of grasping ghouls and is stained with dry blood.',
     img: 'https://i.imgur.com/Ad97q9E.png',
     imgAlt: 'ritual chamber',
     options:
